@@ -1,0 +1,27 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="theme.css" />
+  <title>Ceasars Cipher</title>
+</head>
+
+<body>
+  <div>
+    <h1>Ceasar's Cipher ver. 0.1</h1>
+  </div>
+  <div id="entry">
+    <form>
+      Text to cipher:<br/>
+      <textarea name="word" rows="6" cols="60"></textarea>
+      <br/>
+      Key size:<br/>
+      <input type="text" name="key" />
+      <br/>
+      <input type='submit' value='Cipher' />
+    </form>
+  </div>
+  <div id="result">
+    <p><%= msg %></p>
+  </div>
+</body>
+</html>

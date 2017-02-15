@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+  color: rgb(25, 168, 227);
+}
+
+#entry {
+  text-align: center;
+}
+
+body {
+  background: rgb(200,200,200);
+  font-family: monospace;
+  font-size: 14px;
+}
+
+textarea {
+  font-size: 14px;
+}
+
+#result {
+  text-align: center;
+  margin-left: 31%;
+  margin-right: 31%;
+}
